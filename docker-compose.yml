@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  apirestfactura:
+    image: ${DOCKER_REGISTRY-}apirestfactura
+    build:
+      context: .
+      dockerfile: ApiRestFactura/Dockerfile
