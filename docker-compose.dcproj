@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <ProjectGuid>86efae4e-8890-4bd8-b9de-504e67b47b44</ProjectGuid>
-    <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
+    <DockerLaunchAction>None</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/api/factura</DockerServiceUrl>
     <DockerServiceName>apirestfactura</DockerServiceName>
   </PropertyGroup>
